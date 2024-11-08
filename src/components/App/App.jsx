@@ -1,17 +1,17 @@
-import "./App.css";
+import "./App.module.css";
 import { Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Navigation from "../Navigation/Navigation";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
-const MoviesPage = lazy(() => import("../../pages/MoviesPage/MoviesPage"));
+const MoviesPage = lazy(() => import("../../pages/MoviePage/MoviPage"));
 const MovieDetailsPage = lazy(() =>
-  import("../../pages/MovieDetailsPage/MovieDetailsPage")
+  import("../../pages/MovieDetailsPage/HomeDetailsPage")
 );
 const NotFoundPage = lazy(() =>
   import("../../pages/NotFoundPage/NotFoundPage")
 );
-const MovieCast = lazy(() => import("../../components/MovieCast/MovieCast"));
+const MovieCast = lazy(() => import("../../components/MoviCast/MovieCast"));
 const MovieReviews = lazy(() =>
   import("../../components/MovieReviews/MovieReviews")
 );

@@ -1,5 +1,5 @@
 import css from "./HomePage.module.css";
-import MovieList from "../../components/MovieList/MovieList";
+import MovieList from "../../components/MoiveList/MovieList";
 import { fetchMovies } from "../../utils/movies-api";
 import { useState, useEffect } from "react";
 import Loader from "../../components/Loader/Loader";

@@ -1,17 +1,21 @@
 .castList {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
   }
   
   .castItem {
     display: flex;
-    gap: 4px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 2 * 24px) / 3);
   }
   
   .actorName {
+    text-align: center;
     font-weight: 600;
     font-size: 18px;
   }

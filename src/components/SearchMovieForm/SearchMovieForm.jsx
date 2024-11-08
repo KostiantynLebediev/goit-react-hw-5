@@ -39,7 +39,9 @@ export default function SearchMovieForm({ onSearch }) {
             component="div"
           />
         </label>
-        <button type="submit">
+        <button 
+        className={css.button}
+         type="submit">
           Search
           <CiSearch />
         </button>

@@ -1,7 +1,7 @@
 import css from "./MovieDetailsPage.module.css";
 import { useEffect, useState, Suspense } from "react";
 import { useParams, Link, Outlet, useLocation } from "react-router-dom";
-import { fetchMovieById } from "../../utils/search-movies-id-api";
+import { fetchMovieById } from "../../utils/seach-movie-id-api";
 import Loader from "../../components/Loader/Loader";
 import { onOpenHandle } from "../../utils/open-handle";
 import { IoIosArrowRoundBack } from "react-icons/io";

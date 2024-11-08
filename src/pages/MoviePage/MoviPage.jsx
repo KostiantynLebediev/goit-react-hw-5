@@ -1,9 +1,9 @@
-import css from "./MoviesPage.module.css";
+import css from "./MoviPage.module.css";
 import SearchMovieForm from "../../components/SearchMovieForm/SearchMovieForm";
-import MovieList from "../../components/MovieList/MovieList";
+import MovieList from "../../components/MoiveList/MovieList";
 import { useState, useEffect } from "react";
 import Loader from "../../components/Loader/Loader";
-import { fetchMoviesByQuery } from "../../utils/search-movies-query-api";
+import { fetchMoviesByQuery } from "../../utils/seach-movies-query-api";
 import { useSearchParams } from "react-router-dom";
 
 export default function MoviesPage() {

@@ -11,7 +11,7 @@
   }
   
   .linkGoBack:hover {
-    color: lightcoral;
+    color:orange;
   }
   
   .movieDetailsContainer {
@@ -51,4 +51,14 @@
   
   .movieDetailsNav {
     border-bottom: 1px solid black;
+  }
+  .addlink {
+    font-size: 22px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 4px;
+  }
+  
+  .addlink:hover {
+    color: #007bff;
   }

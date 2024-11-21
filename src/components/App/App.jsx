@@ -4,9 +4,9 @@ import { lazy, Suspense } from "react";
 import Navigation from "../Navigation/Navigation";
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
-const MoviesPage = lazy(() => import("../../pages/MoviePage/MoviPage"));
+const MoviesPage = lazy(() => import("../../pages/MoviePage/MoviePage"));
 const MovieDetailsPage = lazy(() =>
-  import("../../pages/MovieDetailsPage/HomeDetailsPage")
+  import("../../pages/MovieDetailsPage/MovieDetailsPage")
 );
 const NotFoundPage = lazy(() =>
   import("../../pages/NotFoundPage/NotFoundPage")
